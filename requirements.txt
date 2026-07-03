@@ -1,0 +1,12 @@
+# Python dependencies for the workshop demo.
+# Install with:  pip install -r requirements.txt
+
+wordcloud>=1.9      # builds the word cloud image
+matplotlib>=3.5     # displays / renders the image (also used in the notebook)
+numpy>=1.21         # builds the round "petri-dish" mask
+Pillow>=9.0         # image handling (e.g. an image for the notebook heading)
+ipykernel>=6.0      # Jupyter kernel for running notebooks/wordcloud_demo.ipynb
+
+# Optional: the bio scripts here use plain-Python FASTA parsing, so
+# Biopython is NOT required. Uncomment it if you extend the demo to use it.
+# biopython>=1.79
